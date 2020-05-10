@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.qiji.live.xiaozhibo.ui.customviews.TCActivityTitle
+        android:background="@color/white"
+        android:id="@+id/at_eui_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:moreText="完成"
+        app:titleColor="@color/black"
+        />
+    <RelativeLayout
+        android:layout_marginTop="65dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+        <EditText
+            android:textColorHint="@color/colorGray3"
+            android:background="@null"
+            android:id="@+id/et_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_max_length"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="contentDescription"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_color">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:paddingBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.qiji.live.xiaozhibo.ui.customviews.TCLineControllerView
+                android:id="@+id/lcv_ui_set"
+                android:layout_below="@+id/ll_user_info"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:name="@string/app_profit"
+                app:canNav="true"
+                />
+            <com.qiji.live.xiaozhibo.ui.customviews.TCLineControllerView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/lcv_ui_set"
+                app:name="@string/app_diamonds"
+                android:id="@+id/lcv_ui_diamonds"
+                app:isBottom="true"
+                app:canNav="true"/>
+            <com.qiji.live.xiaozhibo.ui.customviews.TCLineControllerView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/lcv_ui_diamonds"
+                app:name="@string/app_rz"
+                android:id="@+id/lcv_ui_rz"
+                app:isBottom="true"
+                app:canNav="true"/>
+            <com.qiji.live.xiaozhibo.ui.customviews.TCLineControllerView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/lcv_ui_rz"
+                app:name="@string/app_about"
+                android:id="@+id/lcv_ui_about"
+                app:isBottom="true"
+                app:canNav="true"/>
+
+            <com.qiji.live.xiaozhibo.ui.customviews.TCLineControllerView
+                android:id="@+id/lcv_ui_logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:name="@string/btn_set"
+                android:textColor="@color/black"
+                android:layout_below="@+id/lcv_ui_about"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_user_info"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/view_user_info_head"></include>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

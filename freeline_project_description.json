@@ -1,0 +1,107 @@
+{
+    "android_gradle_plugin_version": "2.2.2",
+    "apk_path": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/build/outputs/apk/app-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": true
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/build/freeline",
+    "build_directory": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/build",
+    "build_script": "./gradlew :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "/Users/macpro/Library/Android/sdk/build-tools/23.0.3",
+    "build_tools_version": "23.0.3",
+    "compile_sdk_directory": "/Users/macpro/Library/Android/sdk/platforms/android-23",
+    "compile_sdk_version": "android-23",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.qiji.live.xiaozhibo",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live",
+    "freeline_gradle_plugin_version": "0.8.3",
+    "java_home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home",
+    "launcher": "com.qiji.live.xiaozhibo.ui.SplashActivity",
+    "main_assets_directory": [
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/assets",
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/assets"
+    ],
+    "main_jniLibs_directory": [
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/jniLibs",
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/jniLibs"
+    ],
+    "main_jni_directory": [
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/jni",
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/jni"
+    ],
+    "main_manifest_path": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/build/generated/source/r/debug/R.java",
+    "main_res_directory": [
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/res",
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/res"
+    ],
+    "main_src_directory": [
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/java",
+        "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/java"
+    ],
+    "module_dependencies": {
+        "app": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app"
+        }
+    ],
+    "package": "com.qiji.live.xiaozhibo",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/assets",
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/assets"
+            ],
+            "main_jniLibs_directory": [
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/jniLibs",
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/jniLibs"
+            ],
+            "main_jni_directory": [
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/jni",
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/jni"
+            ],
+            "main_manifest_path": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/AndroidManifest.xml",
+            "main_res_directory": [
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/res",
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/res"
+            ],
+            "main_src_directory": [
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/debug/java",
+                "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live/app/src/main/java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "/Users/macpro/Desktop/phonelivelive/git-loc/xiaozhibo/xiaozhibo_android/live",
+    "sdk_directory": "/Users/macpro/Library/Android/sdk",
+    "use_jdk8": true
+}

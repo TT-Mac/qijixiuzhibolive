@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="contentDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.qiji.live.xiaozhibo.widget.AvatarImageView
+                android:id="@+id/avatar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_gravity="center_vertical"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/face"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="14dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:typeface="sans"
+                        android:visibility="gone"
+                        android:id="@+id/live_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="200dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/colorGray6"
+                        android:textSize="@dimen/h14" />
+
+                    <!--主播昵称-->
+                    <TextView
+                        android:id="@+id/host_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextG3"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_18"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/praises"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/like"
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/text_size_12"
+                        android:textColor="@color/colorGray4"
+                        />
+                    <TextView
+                        android:id="@+id/live_lbs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/position"
+                        android:drawablePadding="5dp"
+                        android:textSize="@dimen/h6"
+                        android:textColor="@color/colorTextG2"
+                        android:ellipsize="end"
+                        android:singleLine="true"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--观看人数-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="11111"
+                android:textStyle="bold"
+                android:id="@+id/live_members"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/colorLabel2"
+                />
+            <TextView
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/colorGray2"
+                android:text="在看"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:src="@drawable/ic_live2"
+            android:layout_alignParentRight="true"
+            android:id="@+id/live_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_video_item_title"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_gravity="center"
+            android:text="直播标题"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/main_bg_color" />
+</LinearLayout>

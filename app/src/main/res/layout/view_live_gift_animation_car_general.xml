@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.qiji.live.xiaozhibo.widget.AvatarImageView
+
+            android:id="@+id/iv_animation_red_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/tv_gift_gname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_animation_red_car"
+        android:src="@drawable/car_red1"
+        android:layout_width="240dp"
+        android:layout_height="190dp" />
+</RelativeLayout>

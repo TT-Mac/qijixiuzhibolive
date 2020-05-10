@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_diamonds"
+        android:layout_width="25dp"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:id="@+id/item_tv_number"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20"
+        android:layout_marginLeft="30dp"
+        android:layout_centerVertical="true"
+        android:text="200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.qiji.live.xiaozhibo.widget.ShapeButton
+        android:id="@+id/item_btn_price"
+        android:gravity="center"
+        android:textColor="@color/dark_orange"
+        android:text="1"
+        app:fillColor="@color/white"
+        app:radius="40"
+        app:strokeWidth="3"
+        app:strokeColor="@color/dark_orange"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="75dp"
+        android:layout_height="30dp"/>
+</RelativeLayout>

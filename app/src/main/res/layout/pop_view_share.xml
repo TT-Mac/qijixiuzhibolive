@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ee111111"
+    android:gravity="center"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    >
+    <LinearLayout
+        android:onClick="share"
+        android:id="@+id/ll_live_shar_qqzone"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/qone"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="QQ空间"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="share"
+        android:id="@+id/ll_live_shar_qq"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/qq"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="QQ"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:onClick="share"
+        android:id="@+id/ll_live_shar_sinna"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/weibo"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="微博"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="share"
+        android:id="@+id/ll_live_shar_pyq"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/pengyouquan"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="朋友圈"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="share"
+        android:id="@+id/ll_live_shar_wechat"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/weixin"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="微信"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

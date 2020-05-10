@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00C3FD">
+    <com.qiji.live.xiaozhibo.ui.customviews.TCActivityTitle
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:titleText="我的收益"
+        app:titleBackImg="@drawable/ic_left_white"
+        app:titleColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_blue"
+        android:layout_width="300dp"
+        android:layout_height="460dp">
+
+        <TextView
+            android:id="@+id/tv_profit_total"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/deep_sky_blue"
+            android:textSize="@dimen/text_size_30"
+            android:gravity="center"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="@dimen/space_15"
+            android:textColor="@color/line_btn"
+            android:text="可提现金额"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_height="1px"
+            android:layout_marginTop="20dp"
+            style="@style/h_line"/>
+
+        <TextView
+            android:id="@+id/tv_profit_todaycash"
+            android:textStyle="bold"
+            android:textColor="@color/dark_orange"
+            android:textSize="@dimen/text_size_30"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="@dimen/space_15"
+            android:textColor="@color/line_btn"
+            android:text="今日可提现金额"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.qiji.live.xiaozhibo.widget.ShapeButton
+            android:id="@+id/btn_profit"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_20"
+            android:text="提现"
+            android:layout_marginTop="100dp"
+            app:radius="80"
+            android:background="@color/dark_orange"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            app:fillColor="@color/dark_orange"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

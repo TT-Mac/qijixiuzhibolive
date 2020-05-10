@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00C3FD">
+    <com.qiji.live.xiaozhibo.ui.customviews.TCActivityTitle
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:titleText="我的金币"
+        app:titleColor="@color/white"
+        app:canBack="true"
+        app:titleBackImg="@drawable/ic_left_white"
+        android:id="@+id/view_title"
+        />
+
+
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_blue"
+        android:layout_width="300dp"
+        android:layout_height="450dp">
+        <TextView
+            android:id="@+id/tv_diamonds_coin"
+            android:textStyle="bold"
+            android:textColor="@color/dark_orange"
+            android:textSize="@dimen/text_size_30"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="@dimen/space_12"
+            android:textColor="@color/line_btn"
+            android:text="账户余额"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ListView
+            android:listSelector="@color/white"
+            android:scrollbars="none"
+            android:background="@color/white"
+            android:layout_marginTop="40dp"
+            android:id="@+id/lv_recharge_prices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+        <View
+            android:layout_height="1dp"
+            style="@style/h_line"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_talk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.qiji.live.xiaozhibo.ui.customviews.TCActivityTitle
+        android:background="@color/white"
+        android:id="@+id/chat_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        app:titleColor="@color/black"
+        app:canBack="true" />
+    <com.qiji.live.xiaozhibo.chat.ChatInput
+        android:id="@+id/input_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    <ListView
+        android:layout_below="@+id/chat_title"
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_above="@id/input_panel">
+
+    </ListView>
+</RelativeLayout>

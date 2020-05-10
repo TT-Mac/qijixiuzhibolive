@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <!--礼物图片-->
+        <com.qiji.live.xiaozhibo.widget.LoadUrlImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/iv_show_gift_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <!--礼物价格-->
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">`
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_show_gift_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_diamonds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--礼物经验值-->
+        <TextView
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_9"
+            android:id="@+id/tv_show_gift_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/iv_show_gift_selected"
+        android:layout_alignParentRight="true"
+        android:layout_width="15dp"
+        android:layout_height="15dp"/>
+</RelativeLayout>

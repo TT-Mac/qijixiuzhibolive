@@ -1,0 +1,31 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/contentPanel"
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+
+        <android.support.v4.app.FragmentTabHost
+            android:layout_alignParentBottom="true"
+            android:id="@android:id/tabhost"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white" />
+
+        <ImageView
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/play_click"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+    </RelativeLayout>
+
+
+</merge>

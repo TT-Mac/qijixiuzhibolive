@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_private_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.qiji.live.xiaozhibo.ui.customviews.TCActivityTitle
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:moreText="忽略消息"
+        android:id="@+id/view_title">
+
+        <com.qiji.live.xiaozhibo.widget.PagerSlidingTabStrip
+            android:id="@+id/chat_pt"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </com.qiji.live.xiaozhibo.ui.customviews.TCActivityTitle>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/chat_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
