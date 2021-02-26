@@ -1,2 +1,2 @@
 # qijixiuzhibolive
-这是一个奇迹秀的代码
+这是关于直播的项目
